@@ -4,6 +4,5 @@ FactoryGirl.define do
     public_name "MyString"
     type "ShowRoom"
     pricing_policy 1
-    access_token SecureRandom.hex.to_s
   end
 end

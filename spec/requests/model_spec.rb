@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'Models, type: :request' do
   def headers
-    {'HTTP_ACCESS_TOKEN'  => @organization.access_token}
+    {'HTTP_ACCESS_TOKEN' => @organization.access_token}
   end
 
   before do

@@ -16,5 +16,6 @@ class API::Base < Grape::API
       Organization.find_by_access_token(access_token)
     end
   end
+  mount API::V1::Organizations
   mount API::V1::Models
 end

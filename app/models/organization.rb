@@ -11,6 +11,13 @@ class Organization < ActiveRecord::Base
 
   before_create :create_access_token
 
+  def refresh_access_token
+    create_access_token
+    save!
+  end
+
+  private
+
   def create_access_token
     self.access_token = SecureRandom.hex.to_s
   end
