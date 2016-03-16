@@ -12,7 +12,7 @@ branches:
 script:
   - bundle exec rake db:setup
   - bundle exec rake db:test:prepare
-  - bundle exec rspec spec --format documentatoin
+  - bundle exec rspec spec --format documentation
 
 gemfile:
   - Gemfile
