@@ -5,14 +5,15 @@ Rails 4.1 application
 
 Public API Interface responds to the following requests:
 
-1. [GET] models/:model_slug/model_types
-2. [POST] models/:model_slug/model_types_price/:model_type_slug
+    [GET] models/:model_slug/model_types
+    [POST] models/:model_slug/model_types_price/:model_type_slug
 
 ##### Note:
 
-- API authentication with organization access_token is implemented.
-- access_token must be passed as a request header parameter for authentication.
-- Please follow below steps for application setup:
+* API authentication with organization access_token is implemented.
+* access_token must be passed as a request header parameter for authentication.
+
+Please follow below steps for application setup:
 
 1. Here we use **rvm** for ruby version management. First have **rvm** installed with your shell console.
 
@@ -41,3 +42,10 @@ Public API Interface responds to the following requests:
         $ rake
         $ rspec spec --format documentatoin
 
+### Screenshots
+
+    GET API
+![alt tag](https://raw.githubusercontent.com/atharvasystem/aureso_exercise/master/public/Screenshot_GET_API.png)
+
+    POST API
+![alt tag](https://raw.githubusercontent.com/atharvasystem/aureso_exercise/master/public/Screenshot_POST_API.png)
