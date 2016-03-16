@@ -44,6 +44,9 @@ Please follow below steps for application setup:
 
 ### Screenshots
 
+    GET TOKEN API
+![alt tag](https://raw.githubusercontent.com/atharvasystem/aureso_exercise/master/public/Screenshot_POST_TOKEN_API.png)
+
     GET API
 ![alt tag](https://raw.githubusercontent.com/atharvasystem/aureso_exercise/master/public/Screenshot_GET_API.png)
 
