@@ -40,7 +40,7 @@ Please follow below steps for application setup:
 
 ### Run rspec
         $ rake
-        $ rspec spec --format documentatoin
+        $ rspec spec --format documentation
 
 ### Screenshots
 
